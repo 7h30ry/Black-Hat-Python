@@ -1,5 +1,5 @@
 # Basic Networking Tools
-```
+```bash
 python netcat.py --help
 ```
 ## Example
