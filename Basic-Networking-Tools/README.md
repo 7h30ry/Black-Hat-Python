@@ -1,5 +1,5 @@
 # Basic Networking Tools
-```bash
+```
 python netcat.py --help
 ```
 ## Example
@@ -44,7 +44,7 @@ games:x:5:60:games:/usr/games:/usr/sbin/nologin
 Finally, we could use the client to send out requests the good, old-
 fashioned way:
 ```
- echo -ne "GET / HTTP/1.1\r\nHost: reachtim.com\r\n\r\n"
+echo -ne "GET / HTTP/1.1\r\nHost: reachtim.com\r\n\r\n"
 |python ./netcat.py -t reachtim.com -p 80
 
 HTTP/1.1 301 Moved Permanently
